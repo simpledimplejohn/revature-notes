@@ -65,3 +65,9 @@ Making A Model
 
 Make A Service
 * `ng g s user` for a user service
+
+
+
+INSTALL ON EC2
+* Node on Linux install
+* 
