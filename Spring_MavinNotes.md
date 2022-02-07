@@ -9,3 +9,5 @@ Create a maven project
 Build maven project
 * `mvn clean install`
 Run maven build
+
+.gitignore files for basic mavin project
