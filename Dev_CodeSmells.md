@@ -3,6 +3,7 @@
 ## Sonar Cloud is what we used
 
 ## List of code smells
+- NULL POINTER EXCEPTION
 - unimplemented methods
 - Bloaters extra long methods or classes 
 - use of temporary fields

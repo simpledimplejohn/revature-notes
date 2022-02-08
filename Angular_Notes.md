@@ -62,6 +62,7 @@ ROUTTING A PAGE
 
 Making A Model 
 * nothing special, make a model folder, moodel file.ts
+* or `ng g class user` puts it in the right place
 
 Make A Service
 * `ng g s user` for a user service
