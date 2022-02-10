@@ -3,6 +3,8 @@
 ## Sonar Cloud is what we used
 
 ## List of code smells
+- Constructor having 9 parameters??
+    - in the Bubble back end
 - NULL POINTER EXCEPTION
 - unimplemented methods
 - Bloaters extra long methods or classes 
