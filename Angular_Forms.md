@@ -10,6 +10,11 @@
     `<form #formObject="ngForm" (submit)="getData(formObject.value)">` needs ngForm
       `<input ngModel name="userName">` needs ngModel and name to enter into form object
       `<button>Submit</button>`
+    template reference varable #formObject
+    directive ="ngForm"  
+              ="ngModel"
+              ="ngModelGroup"
+
     - .ts
     `import { NgForm } from '@angular/fomrs'`
     
