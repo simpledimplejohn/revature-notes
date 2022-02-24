@@ -38,4 +38,19 @@
 				</configuration>
 			</plugin>
 ```
+- Add a dependcy after initialization
+    - right click on pom.xml
+    - go to Spring - Edit Starters
+    - add something like validation
+
+## About UserController
+- GetMapping/PostMapping automatically set up the HttpRequest headers/body/etc most of the time
+    - ResponseEntity allows you to manually set these and is useful sometimes
+    ```
+    @GetMapping("/{id}")
+    public ResponseEntity<User> findUserById(@PathVariable("id") int id) {
+        return ResponseEntity.ok(userServ.getById(id));
+    }
+    ```
+
 
