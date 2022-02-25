@@ -53,4 +53,8 @@
     }
     ```
 
+## Run Spring Boot Maven from the command line
+- `mvn clean package`
+- `mvn spring-boot:run`
+
 
