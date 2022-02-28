@@ -1,0 +1,41 @@
+Uncaught Exception:
+Error: ENOENT: no such file or directory, chdir '/' -> '/Users/johnblalock/Library/Containers/com.docker.docker/Data'
+at process.wrappedChdir [as chdir] (node:internal/bootstrap/switches/does_own_process_state:112:14)
+at Object.<anonymous> (/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/Resources/app.asar/src_transpiled/logger.js:46:13)
+at Module._compile (node:internal/modules/cjs/loader:1116:14)
+at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+at Module.load (node:internal/modules/cjs/loader:988:32)
+at Module._load (node:internal/modules/cjs/loader:829:12)
+at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+at Module.require (node:internal/modules/cjs/loader:1012:19)
+at require (node:internal/modules/cjs/helpers:94:18)
+at Object.<anonymous> (/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/Resources/app.asar/src_transpiled/index.js:10:1)
+
+
+// uninstall docker command line 
+
+sudo rm -Rf /Applications/Docker.app
+sudo rm -f /usr/local/bin/docker
+sudo rm -f /usr/local/bin/docker-machine
+sudo rm -f /usr/local/bin/com.docker.cli
+sudo rm -f /usr/local/bin/docker-compose
+sudo rm -f /usr/local/bin/docker-compose-v1
+sudo rm -f /usr/local/bin/docker-credential-desktop
+sudo rm -f /usr/local/bin/docker-credential-ecr-login
+sudo rm -f /usr/local/bin/docker-credential-osxkeychain
+sudo rm -f /usr/local/bin/hub-tool
+sudo rm -f /usr/local/bin/hyperkit
+sudo rm -f /usr/local/bin/kubectl.docker
+sudo rm -f /usr/local/bin/vpnkit
+sudo rm -Rf ~/.docker
+sudo rm -Rf ~/Library/Containers/com.docker.docker
+sudo rm -Rf ~/Library/Application\ Support/Docker\ Desktop
+sudo rm -Rf ~/Library/Group\ Containers/group.com.docker
+sudo rm -f ~/Library/HTTPStorages/com.docker.docker.binarycookies
+sudo rm -f /Library/PrivilegedHelperTools/com.docker.vmnetd
+sudo rm -f /Library/LaunchDaemons/com.docker.vmnetd.plist
+sudo rm -Rf ~/Library/Logs/Docker\ Desktop
+sudo rm -Rf /usr/local/lib/docker
+sudo rm -f ~/Library/Preferences/com.docker.docker.plist
+sudo rm -Rf ~/Library/Saved\ Application\ State/com.electron.docker-frontend.savedState
+sudo rm -f ~/Library/Preferences/com.electron.docker-frontend.plist
