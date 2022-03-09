@@ -20,8 +20,17 @@ Create a app component: ??
   `cd components`
   `ng g c app`
 
-Install bootstrap:
-`ng add @ng-bootstrap/ng-bootstrap`
+Removing a component: ??
+  - `app.module.ts`
+    - remove import
+    - remove component from array
+  - `app-routing.modules.ts`
+    - remove import
+    - remove from Routes array
+  - Then delete the folder and files
+
+
+
 
 Run Live Server
   `ng serve -o`
@@ -44,12 +53,14 @@ CLI
 * make a componenent `ng g c name`
 
 ADDING BOOTSTRAP
+
 * Run this from the root directory (or whereever....)
 * `npm install bootstrap --save`
 * Put this in global styles.css
 * `@import "~bootstrap/dist/css/bootstrap.css"`
 * Also there is Ng bootstrap
 * `ng add @ng-bootstrap/ng-bootstrap`
+    * has a few fancy options if you need them
 * Don't forget to import it too
 
 ROUTTING A PAGE

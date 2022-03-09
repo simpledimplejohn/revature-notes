@@ -8,9 +8,12 @@
 ## Crud Methods
 - Default available methods 
     - findAll()
-    - add(Object)
-    - getById(id)
-    - remove(id)
+    - findAllById
+    - findById
+    - deleteAll
+    - deleteById
+    - save
+    - saveAll
 - Creating Crud methods:
     - introducer and criteria
         - introducers:
