@@ -16,5 +16,5 @@
               ="ngModelGroup"
 
     - .ts
-    `import { NgForm } from '@angular/fomrs'`
+    `import { NgForm } from '@angular/forms'`
     
