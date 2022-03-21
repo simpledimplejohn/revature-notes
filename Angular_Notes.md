@@ -55,7 +55,23 @@ CLI
 ADDING BOOTSTRAP
 
 * Run this from the root directory (or whereever....)
-* `npm install bootstrap --save`
+    `npm install bootstrap --save`
+* Add jQuery
+    - `npm install jquery --save`
+    - add to angular.json file in 
+      "projects:{
+        "architect":{
+          "build":{
+            "options":{
+              "scripts":[
+                "node_modules/jquery/dist/jquery.min.js",
+                "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              ]
+            }
+          }
+        }
+      }
+
 * Put this in global styles.css
 * `@import "~bootstrap/dist/css/bootstrap.css"`
 * Also there is Ng bootstrap
