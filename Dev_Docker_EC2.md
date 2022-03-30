@@ -77,7 +77,7 @@
 * `docker image rm`
 
 ### Docker containers Stopping
-* `docker container -ls`
+* `docker container ls`
 * `docker stop <id>`
 * `docker image rm <id>`
 
