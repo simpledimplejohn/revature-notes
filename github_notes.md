@@ -7,6 +7,9 @@
     `git checkout -b old-state 4879e01` old-state is the new branch, then commit id
 - Fix previous commit message not pushed
     `git commit --amend -m "amended message"`
+- Create New Branch copy data over
+    `git checkout -b new-branch-name`
+
 
 - Merge to main
     `git checkout main`
