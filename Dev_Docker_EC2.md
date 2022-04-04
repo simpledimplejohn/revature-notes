@@ -58,7 +58,8 @@
 * Run `mvn clean package`
   * test jar with `java -jar target/Niceday-0.0.1-SNAPSHOT.jar` with your jar file name
   * `command c` to stop
-* Run `docker build -t name .`
+* Run `docker build -t name .` vs naming the docker image
+  - or `docker build -t jar-file-name.jar .`
 * `docker build -t nameOfImage:auto`
 * `docker run -p port:port nameOfImage:auto`
 * port 9192??
@@ -71,6 +72,8 @@
 * see containers running `sudo docker ps` and their ids
 * to pause if needed `sudo docker pause <container ID>`
 * to stop it run `docker kill <container ID>`
+
+### Running
 
 ### Deleting docker images
 * `docker images`
